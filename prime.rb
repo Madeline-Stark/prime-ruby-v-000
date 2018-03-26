@@ -6,13 +6,10 @@ def prime?(integer)
       integer < 2
       false
     elsif
-      integer == 2
-      true
-    elsif
-      integer % 2 == 0
+      integer % 4 == 0
       false
     elsif
-      integer % 3 == 0
+      integer % 6 == 0
       false
     elsif
       integer % 5 == 0
