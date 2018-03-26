@@ -4,6 +4,8 @@ def prime?(integer)
     if
       integer < 2
       false
+    elsif integer == 2
+      true 
     elsif
       array.include?(0)
       false
