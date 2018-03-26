@@ -13,6 +13,4 @@ def prime?(integer)
       true
     end
 end
-#what conditions can we just write off right a way
-#just need to see remainder from some main numbers
-#look up how to deal with a range in ruby
+
