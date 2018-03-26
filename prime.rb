@@ -5,6 +5,6 @@ def prime?(integer)
     elsif integer == 2
       true
     else integer % (2..integer).to_a !== 0
-      true
+      
     end
 end
