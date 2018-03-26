@@ -4,7 +4,8 @@ def prime?(integer)
       false
     elsif integer == 2
       true
-    else integer % (2..integer).to_a !== 0
-      
+    else
+      integer % (2..integer).to_a !== 0
+
     end
 end
