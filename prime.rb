@@ -3,8 +3,11 @@ def prime?(integer)
  #prime =
   #numbers.any? do |number|
     if
-      integer < 1
+      integer < 2
       false
+    elsif
+      integer == 2
+      true
     elsif
       integer % 2 == 0
       false
