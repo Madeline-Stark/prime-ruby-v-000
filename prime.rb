@@ -3,7 +3,7 @@ def prime?(integer)
       integer < 2
       false
     elsif
-      integer % (5..2000).to_a == 0
+      integer % (2..2000).to_a.include? == 0
       false
     else
       true
