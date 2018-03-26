@@ -1,9 +1,11 @@
 def prime?(integer)
+  array = []
+  array << integer % (2..2000).to_a
     if
       integer < 2
       false
     elsif
-      {integer % (2..2000).to_a}.include?(0)
+      array.include?(0)
       false
     else
       true
