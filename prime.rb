@@ -1,7 +1,7 @@
 def prime?(integer)
   #numbers = (2..100).to_a
  #prime =
-  numbers.any? do |number|
+  #numbers.any? do |number|
     if
       integer < 1
       false
@@ -20,7 +20,7 @@ def prime?(integer)
     else
       true
     end
-  end
+  #end
   #prime
 end
 #what conditions can we just write off right a way
